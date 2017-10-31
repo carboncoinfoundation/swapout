@@ -3,10 +3,10 @@ import 'zeppelin-solidity/contracts/token/StandardToken.sol';
 
 contract CarboncoinToken is StandardToken {
 
-  string public name = 'CarboncoinToken';
-  string public symbol = 'CCT';
-  uint public decimals = 2;
-  uint public INITIAL_SUPPLY = 160000000;
+  string public name = 'Carboncoin Eth';
+  string public symbol = 'CCE';
+  uint public decimals = 18;
+  uint public INITIAL_SUPPLY = 800000000000000000;
 
   function CarboncoinToken() {
     totalSupply = INITIAL_SUPPLY;
