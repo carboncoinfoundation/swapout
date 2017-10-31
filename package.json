@@ -1,33 +1,25 @@
 {
-  "name": "newcarboncoin-ico",
+  "name": "carboncoin-swapout",
   "version": "0.0.1",
   "description": "Contracts for the NewCarboncoin ICO",
   "main": "truffle.js",
-  "scripts": {
-    "dev": "lite-server",
-    "test": "truffle test"
-  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/carboncoinfoundation/ico.git"
+    "url": "git+https://github.com/carboncoinfoundation/swapout.git"
   },
   "keywords": [
     "Ethereum",
     "Solidity",
     "Truffle",
-    "OpenZeppelin",
-    "ICO"
+    "OpenZeppelin"
   ],
   "author": "Carboncoin Core Team <tech@carboncoinfoundation.org>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/carboncoinfoundation/ico/issues"
+    "url": "https://github.com/carboncoinfoundation/swapout/issues"
   },
-  "homepage": "https://github.com/carboncoinfoundation/ico#readme",
+  "homepage": "https://github.com/carboncoinfoundation/swapout#readme",
   "dependencies": {
     "zeppelin-solidity": "^1.3.0"
-  },
-  "devDependencies": {
-    "lite-server": "^2.3.0"
   }
 }
