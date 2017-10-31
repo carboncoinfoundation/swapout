@@ -1,14 +1,14 @@
 pragma solidity ^0.4.4;
 import 'zeppelin-solidity/contracts/token/StandardToken.sol';
 
-contract CarboncoinToken is StandardToken {
+contract CarboncoinEth is StandardToken {
 
   string public name = 'Carboncoin Eth';
   string public symbol = 'CCE';
   uint public decimals = 18;
-  uint public INITIAL_SUPPLY = 800000000000000000;
+  uint public INITIAL_SUPPLY = 80000000 * (10 ** decimals);
 
-  function CarboncoinToken() {
+  function CarboncoinEth() {
     totalSupply = INITIAL_SUPPLY;
     balances[msg.sender] = INITIAL_SUPPLY;
   }
