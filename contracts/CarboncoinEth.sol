@@ -5,7 +5,7 @@ contract CarboncoinEth is StandardToken {
 
   string public name = 'Carboncoin Eth';
   string public symbol = 'CCE';
-  uint public decimals = 18;
+  uint public decimals = 8;
   uint public INITIAL_SUPPLY = 80000000 * (10 ** decimals);
 
   function CarboncoinEth() {
