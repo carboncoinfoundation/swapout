@@ -1,5 +1,5 @@
-var CarboncoinToken = artifacts.require('./CarboncoinToken.sol');
+var CarboncoinEth = artifacts.require('./CarboncoinEth.sol');
 
 module.exports = function(deployer) {
-  deployer.deploy(CarboncoinToken);
+  deployer.deploy(CarboncoinEth);
 }
