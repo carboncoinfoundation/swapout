@@ -11,6 +11,12 @@ module.exports = {
       from: process.env.CREATOR_ACCOUNT, // default address to use for any transaction Truffle makes during migrations
       network_id: 4,
       gas: 4692388 // Gas limit used for deploys
+    },
+    "live": {
+      network_id: 1,
+      host: "localhost",
+      gas: 4712388,
+      port: 8546   // Different than the default below
     }
   }
 };
